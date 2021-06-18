@@ -1,3 +1,5 @@
+#Procedure que faz a leitura de um arquivo AFD e insere em uma tabela somente o que é efetivamente uma linha referente a uma marcação e ignora cabeçalho do arquivo.
+
 CREATE PROCEDURE WFM_ImportAFD (@FileName NVARCHAR(200))
 AS
 BEGIN
